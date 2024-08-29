@@ -28,9 +28,9 @@ if ($AppInstallationName -eq "") {
 }
 
 # Import & connect to MicrosoftTeams
-# Import-Module $moduleName
+Import-Module $moduleName
 # Connect to MicrosoftTeams (interactive). This will open the browser
-# Connect-MicrosoftTeams
+Connect-MicrosoftTeams
 
 # Test TeamsApp
 # Get-TeamsAppInstallation -userId <userId>
